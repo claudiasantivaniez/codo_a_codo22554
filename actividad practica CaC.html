@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    
+    <title>Actividad Practica</title>
+  </head>
+  <!--Nav-->
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Codo a Codo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link disabled">Desactivado</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Buscar"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--cards-->
+
+  <div class="containe">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="imgs/html.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5>Html</h5>
+            <p class="card-text">
+              El documento que lee el navegador está escrito en un lenguaje de
+              marcado llamado HTML, que son las siglas de HyperText Markup
+              Language (Lenguaje de marcas de hipertexto), es un lenguaje de
+              etiquetas que permite hacer referencia a todo tipo de información.
+              Utiliza "marcas" para etiquetar texto, imágenes,etc.
+            </p>
+            <div class="card-footer text-muted">
+              Ultima actualización 1
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="imgs/css32.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5>Css</h5>
+            <p class="card-text">
+              Es un lenguaje de diseño gráfico “Cascading Style Sheets”,que
+              permite definir y crear la presentación de un documento
+              estructurado escrito en un lenguaje de marcado. Es muy usado para
+              establecer el diseño visual de los documentos web e interfaces de
+              usuario escritas en HTML.
+            </p>
+            <div class="card-footer text-muted">
+              Ultima actualización 1
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <img src="imgs/bootstrap.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5>Bootstrap</h5>
+            <p class="card-text">
+              Es un marco de desarrollo front-end gratuito y de código abierto
+              para la creación de sitios web y aplicaciones web . Diseñado para
+              permitir el desarrollo receptivo de sitios web móviles, Bootstrap
+              proporciona una colección de sintaxis para diseños de plantillas
+              con tipografía, formularios etc...
+            </p>
+            <div class="card-footer text-muted">
+              Ultima actualización 1
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--formulario-->
+  <div class="container-fluid">
+    <form>
+      
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">Nunca comparta su Email.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Contraseña</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1">Verificar</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </div>
+</html>
